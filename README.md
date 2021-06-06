@@ -58,8 +58,15 @@ option_settings:
 - 
 2. Criar um ambiente, neste caso criamos um ambiente de produção
 ```eb create SPDCloud-Production```
->
-##  Azure
+3. Verificar o estado do ambiente criado
+```eb status``` ou ```eb open```
+4. Caso tenhamos feito alguma atualização do código, devemos fazer **deploy**
+```eb deploy```
+
+```eb ssh``` conexão ao servidor
+
+
+>##  Azure
 https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
 ### Requirements
 - Tenha uma conta Azure com uma subscrição ativa. Crie uma conta gratuita.
