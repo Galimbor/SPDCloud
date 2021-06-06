@@ -1,5 +1,7 @@
-"# SPDCloud" 
-# AWS
+# SPD Cloud
+
+
+## AWS
 
 1. Primeiro devemos criar conta na plataforma, seguindo os seguintes passos:
 - https://docs.aws.amazon.com/cloud9/latest/user-guide/setup-student.html
@@ -48,3 +50,19 @@ option_settings:
 
 
 # Deploy your site with the EB CLI
+1. To create an environment and deploy your Django application
+```eb init ``
+- Escolher regiao onde o servidor estará hospedado. No nosso caso escolhemos 16 *16) eu-west-2 : EU (London)*, por ser mais próximo de nós.
+- Obter as credenciais de acesso. Aceder a *IAM* -> Users -> AddUser 
+(aws-access-id)
+
+>
+##  Azure
+https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
+### Requirements
+- Tenha uma conta Azure com uma subscrição ativa. Crie uma conta gratuita.
+- Instale python 3.6 ou superior. ```py -3 --version```
+- Instale o Azure CLI 2.18.0 ou superior, com o qual execute comandos em qualquer concha para provisões e configurar recursos Azure. ```az --version ``` e depois fazer login ```az login```
+
+https://stories.mlh.io/deploying-a-basic-django-app-using-azure-app-services-71ec3b21db08
+
