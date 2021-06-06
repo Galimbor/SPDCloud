@@ -55,7 +55,9 @@ option_settings:
 - Escolher regiao onde o servidor estará hospedado. No nosso caso escolhemos 16 *16) eu-west-2 : EU (London)*, por ser mais próximo de nós.
 - Obter as credenciais de acesso. Aceder a *IAM* -> Users -> AddUser 
 (aws-access-id)
-
+- 
+2. Criar um ambiente, neste caso criamos um ambiente de produção
+```eb create SPDCloud-Production```
 >
 ##  Azure
 https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
