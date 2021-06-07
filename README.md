@@ -65,7 +65,7 @@ option_settings:
 
 ```eb ssh``` conexão ao servidor
 
-* SITE: http://spdcloud-production.eba-mbmntigr.eu-west-2.elasticbeanstalk.com/
+***SITE**: http://spdcloud-production.eba-mbmntigr.eu-west-2.elasticbeanstalk.com/
 
 
 >##  Azure
@@ -80,4 +80,8 @@ https://docs.microsoft.com/pt-pt/azure/app-service/quickstart-python?tabs=bash&p
 - Abrir a app
 ```http://<app-name>.azurewebsites.net```
 
-*SITE: http://spdcloud.azurewebsites.net/
+***SITE**: http://spdcloud.azurewebsites.net/
+
+> ## Google Cloud Platform
+
+***SITE**: https://spd-multi-cloud-onboard-p2.ew.r.appspot.com/
