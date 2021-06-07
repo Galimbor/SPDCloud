@@ -65,13 +65,19 @@ option_settings:
 
 ```eb ssh``` conexão ao servidor
 
+* SITE: http://spdcloud-production.eba-mbmntigr.eu-west-2.elasticbeanstalk.com/
+
 
 >##  Azure
 https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
+https://docs.microsoft.com/pt-pt/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django
 ### Requirements
 - Tenha uma conta Azure com uma subscrição ativa. Crie uma conta gratuita.
 - Instale python 3.6 ou superior. ```py -3 --version```
 - Instale o Azure CLI 2.18.0 ou superior, com o qual execute comandos em qualquer concha para provisões e configurar recursos Azure. ```az --version ``` e depois fazer login ```az login```
+- Deploy para servidor, no nossa fizemos para spdcloud como app-name
+```az webapp up --sku B1 --name <app-name>```
+- Abrir a app
+```http://<app-name>.azurewebsites.net```
 
-https://stories.mlh.io/deploying-a-basic-django-app-using-azure-app-services-71ec3b21db08
-
+*SITE: http://spdcloud.azurewebsites.net/
