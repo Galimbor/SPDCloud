@@ -11,7 +11,7 @@ Insira o endereço de e-mail e a senha que você usou para fazer login no Portal
 
 Selecione Conta da AWS no banner de navegação superior.
 
-Selecione Conta do AWS Educate Starter
+Selecione Conta do AWS Educate Starter.
 
 2. Seguir tutorial 
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
