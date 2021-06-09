@@ -85,3 +85,4 @@ https://docs.microsoft.com/pt-pt/azure/app-service/quickstart-python?tabs=bash&p
 > ## Google Cloud Platform
 
 ***SITE**: https://spd-multi-cloud-onboard-p2.ew.r.appspot.com/
+
