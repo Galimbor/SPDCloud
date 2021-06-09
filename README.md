@@ -68,7 +68,7 @@ option_settings:
 ***SITE**: http://spdcloud-production.eba-mbmntigr.eu-west-2.elasticbeanstalk.com/
 
 
->##  Azure
+##  Azure
 https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
 https://docs.microsoft.com/pt-pt/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django
 ### Requirements
