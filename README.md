@@ -1,25 +1,8 @@
 # SPD Cloud
 > a63971, a64007, a64014, a64591, a64592
 
-<<<<<<< HEAD
 # Primeiros passos para projeto em DJANGO
 ## Criar ambiente virtual e instalar o django
-=======
-
-## AWS
-
-1. Primeiro devemos criar conta na plataforma, seguindo os seguintes passos:
-- https://docs.aws.amazon.com/cloud9/latest/user-guide/setup-student.html
-Vá para o site de login do AWS Educate, em https://www.awseducate.com/signin/.
-
-Insira o endereço de e-mail e a senha que você usou para fazer login no Portal de aluno do AWS Educate e escolha Sign In (Fazer login).
-
-Selecione Conta da AWS no banner de navegação superior.
-
-Selecione Conta do AWS Educate Starter.
-
-2. Seguir tutorial 
->>>>>>> daa89821635c8453144586719179fec560e8c3ad
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
 - Criar ambiente virtual 
 ```virtualenv eb-virt```
@@ -90,12 +73,8 @@ option_settings:
 * **SITE**: http://spdcloud-production.eba-mbmntigr.eu-west-2.elasticbeanstalk.com/
 
 
-<<<<<<< HEAD
 >##  Azure
 Usamos os seguintes tutoriais:
-=======
-##  Azure
->>>>>>> daa89821635c8453144586719179fec560e8c3ad
 https://docs.microsoft.com/pt-pt/azure/app-service/tutorial-python-postgresql-app?tabs=bash%2Cclone
 https://docs.microsoft.com/pt-pt/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-django
 ### Requisitos
@@ -190,10 +169,5 @@ application = get_wsgi_application()
 ### Fazer deploy para GCP
 - Correr o comando ```gcloud app deploy```
 
-<<<<<<< HEAD
 #### DEPLOYED URL
 * **SITE**: https://spd-multi-cloud-onboard-p2.ew.r.appspot.com/
-=======
-***SITE**: https://spd-multi-cloud-onboard-p2.ew.r.appspot.com/
-
->>>>>>> daa89821635c8453144586719179fec560e8c3ad
