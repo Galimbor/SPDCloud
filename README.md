@@ -1,6 +1,11 @@
 # SPD Cloud
 > a63971, a64007, a64014, a64591, a64592
 
+## Description
+
+The last project of the class SPD of ualg's computer science degree, consisting of an example on how to use a single Github repo for doing multi-cloud onboarding. This works with Google cloud.The last project of the class SPD of ualg's computer science degree, consisting of an example on how to use a single Github repo for doing multi-cloud onboarding. This works with Google cloud
+
+
 # Primeiros passos para projeto em DJANGO
 ## Criar ambiente virtual e instalar o django
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
